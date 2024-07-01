@@ -5,6 +5,8 @@ import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
 
+export const runtime = "edge";
+
 const cards = [
     //{ text: 'Hello', linkText: 'someLink', href: '/' }
 ];
